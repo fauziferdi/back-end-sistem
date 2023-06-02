@@ -11,7 +11,7 @@ const routes = [
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return 'Homepage versi 1.11.1.1.1 baru dari localhost';
+            return 'Homepage versi 5.1.2';
         },
     },
     {
