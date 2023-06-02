@@ -11,7 +11,7 @@ const routes = [
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return 'Homepage';
+            return 'Homepage versi 1.11.1.1.1';
         },
     },
     {
@@ -20,7 +20,8 @@ const routes = [
         handler: (request, h) => {
             return 'About page';
         },
-    },{
+    },
+    {
         method: 'GET',
         path: '/test',
         handler: (request, h) => {
